@@ -1,4 +1,21 @@
-@import url();
+/* Medias */
+
+@media (condição) {
+    /* Estilos para essa condição */
+}
+
+@media (condição) {
+    /* Estilos para essa condição */
+}
+
+@media (max-width: 768px) {
+    /* Estilos aqui */
+}
+
+@media (min-width: 1024px) {
+    /* Estilos aqui */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -99,62 +116,53 @@ a {
     
 }
   
-.link_sidebar{
-    margin-top: 180%;
+.link_sidebar {
+    margin-top: 210%; /* Ajuste com uma unidade percentual, mais flexível */
+    display: flex; /* Usando flexbox para alinhar os links */
+    flex-direction: column; /* Organizando os links verticalmente */
+    gap: 2em; /* Espaço entre os links usando 'em', que é relativo ao tamanho da fonte */
 }
-.link_sidebar a {
 
+.link_sidebar a {
     display: block;
-    line-height: 0.70em;
-    margin: 0.2% 0.5%;
-    padding: 0em;
-    width: 16vw;
-    height: 5vh;
-   
+    line-height: 1.5em; /* Usando 'em' para a altura da linha, depende do tamanho da fonte */
+    margin: 0 auto; /* Centraliza os links horizontalmente */
+    padding: 0.5em; /* Usando 'em' para o padding */
+    width: 16vw; /* A largura será 16% da largura da tela */
+    height: 10vh; /* A altura será 10% da altura da tela */
+
     background: none;
     border-radius: 52px;
     text-align: center;
     transition: background 0.1s ease, padding 0.1s ease;
 
+    color: #626262;
+
 }
 
 .link_sidebar a:hover {
-    
     background: #D9D9D9;
-    padding: 1em 0em;
-
+    padding: 1em 0em; /* Adicionando padding extra durante o hover */
 }
 
-
-
-.link_page {
- 
-    display: block;
-    margin: 10px 0;
-    width: 149px;
-    height: 24px;
-    left: 61px;
-    top: 564px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 87%;
-    line-height: 0em;
+.log{
+    
+    line-height: 1%;
+    padding: 10rem 10%;
+    background: none;
+    border-radius: 52px;
     text-align: center;
+    transition: background 0.1s ease, padding 0.1s ease;
+
     color: #626262;
 
 }
 
 .logout{
 
-    display: block;
-    margin-top: 100%;
-    width: 149px;
-    height: 24px;
-    left: 61px;
-    top:100%;
-
+    margin-top: 60%;
+    padding: 0%;
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -271,16 +279,16 @@ a {
 .plano_alimentar {
 
     position: absolute;
-    width: 151px;
-    height: 24px;
+    width: 20%;
+    height: 10%;
     left: 3%;
     top: 3%;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 120%;
+    line-height: 120%;
 
     color: #000000;
 
@@ -298,27 +306,22 @@ a {
     border: 1px solid #B0B0B0;
 
 }
-.refeicao h2 {
-
-    display: block;
-    margin: 20vh 4%;
-    padding: 0% 3%; 
-    width: 16vw;
-    height: 10%;
+.refeicoes h2 {
     
-    font-family: 'Inter';
-    font-style: normal;
+    margin: 13% 3%;
+    padding: 0vh 3%; 
+    gap: 0vh;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 1.20vw;
-    line-height: 1.2; 
-
+    font-size: clamp(1rem, 1.2vw, 1.5rem);
+    line-height: 1.5;
     color: #000000;
-
     text-align: left;
+    width: 100%; 
 
 }
 
-.refeicao {
+.refeicoes p {
 
     display: block;
     margin: 20vh 4%;
