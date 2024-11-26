@@ -1,25 +1,17 @@
 /* Medias */
 
-@media (condição) {
-    /* Estilos para essa condição */
-}
-
-@media (condição) {
-    /* Estilos para essa condição */
-}
-
 @media (max-width: 768px) {
-    /* Estilos aqui */
+   
 }
 
 @media (min-width: 1024px) {
-    /* Estilos aqui */
+   
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Isso ajuda a controlar o layout, incluindo o padding nas dimensões dos elementos */
+    box-sizing: border-box; 
 }
 
 body {
@@ -46,7 +38,7 @@ header {
     align-items: center;
     position: relative;
     width: 100%;
-    height: 12%;
+    height: 14%;
     left: 0px;
     top: 0px;
 
@@ -70,7 +62,7 @@ header {
 
     position: absolute;
     width: 20.3%;
-    height: 200%;
+    height: 224%;
     left: 0%;
     top: 0%;
     padding: 0% 0%;
@@ -83,7 +75,7 @@ header {
 
     position: absolute;
     width: 74%;
-    height: 6%;
+    height: 5%;
     left: 12%;
     top: 1%;
 
@@ -95,10 +87,10 @@ header {
 .usuario {
 
     position: absolute;
-    width: 40%;
+    width: 49%;
     height: 10%;
-    left: 30%;
-    top: 18%;
+    left: 25%;
+    top: 13%;
 
 
 }
@@ -117,19 +109,19 @@ a {
 }
   
 .link_sidebar {
-    margin-top: 210%; /* Ajuste com uma unidade percentual, mais flexível */
-    display: flex; /* Usando flexbox para alinhar os links */
-    flex-direction: column; /* Organizando os links verticalmente */
-    gap: 2em; /* Espaço entre os links usando 'em', que é relativo ao tamanho da fonte */
+    margin-top: 240%; 
+    display: flex; 
+    flex-direction: column;
+    gap: 2em; 
 }
 
 .link_sidebar a {
     display: block;
-    line-height: 1.5em; /* Usando 'em' para a altura da linha, depende do tamanho da fonte */
-    margin: 0 auto; /* Centraliza os links horizontalmente */
-    padding: 0.5em; /* Usando 'em' para o padding */
-    width: 16vw; /* A largura será 16% da largura da tela */
-    height: 10vh; /* A altura será 10% da altura da tela */
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 0.5em;
+    width: 16vw;
+    height: 10vh; 
 
     background: none;
     border-radius: 52px;
@@ -142,36 +134,9 @@ a {
 
 .link_sidebar a:hover {
     background: #D9D9D9;
-    padding: 1em 0em; /* Adicionando padding extra durante o hover */
+    padding: 1em 0em;
 }
 
-.log{
-    
-    line-height: 1%;
-    padding: 10rem 10%;
-    background: none;
-    border-radius: 52px;
-    text-align: center;
-    transition: background 0.1s ease, padding 0.1s ease;
-
-    color: #626262;
-
-}
-
-.logout{
-
-    margin-top: 60%;
-    padding: 0%;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100%;
-    line-height: 24px;
-    text-align: center;
-    color: #626262;
-
-}
 
 
 /* Painel de Responsavel e Paciente*/
@@ -182,8 +147,8 @@ a {
     position: absolute;
     width: 128px;
     height: 27px;
-    left: 3.80em;
-    top: 15.40em;
+    left: 29.9%;
+    top: 26%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -197,16 +162,16 @@ a {
 
 .paciente{
     position: absolute;
-    width: 128px;
-    height: 27px;
-    left: 4.70em;
-    top: 18.5em;
+    width: 20%;
+    height: 4%;
+    left: 35%;
+    top: 33%;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 1em;
-    line-height: 24px;
+    line-height: 30%;
 
     color: #000000;
 }
@@ -215,15 +180,15 @@ a {
 
     position: absolute;
     width: 168px;
-    height: 19px;
-    left: 2.99em;
-    top: 17em;
+    height: 19%;
+    left: 25%;
+    top: 30%;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size:0.70em;
-    line-height: 19px;
+    line-height: 22%;
 
     color: #000000;
 
@@ -232,10 +197,10 @@ a {
 
 .nome_2 {
     position: absolute;
-    width: 168px;
-    height: 19px;
-    left: 2.99em;
-    top: 20em;
+    width: 168%;
+    height: 19%;
+    left: 25%;
+    top: 35.99%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -250,10 +215,10 @@ a {
 .linha {
 
     position: absolute;
-    width: 68%;
+    width: 70%;
     height:0%;
-    left: 14%;
-    top: 60%;
+    left: 14.5%;
+    top: 42%;
 
     border: 1px solid #9B9B9B;
 
@@ -267,12 +232,12 @@ a {
     display: block;
     position: absolute;
     width: 74%;
-    height: 160vh;
+    height: 167vh;
     left: 23.5%;
     top: 23%;
 
     background: #EAEAEA;
-    border-radius: 39px;
+    border-radius: 45px;
 
 }
 
@@ -306,38 +271,30 @@ a {
     border: 1px solid #B0B0B0;
 
 }
-.refeicoes h2 {
+
+.refeicoes{
+ /*colocar em cada div*/
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
-    margin: 13% 3%;
-    padding: 0vh 3%; 
-    gap: 0vh;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: clamp(1rem, 1.2vw, 1.5rem);
-    line-height: 1.5;
-    color: #000000;
-    text-align: left;
-    width: 100%; 
+    gap: 2rem;
+    
 
 }
 
-.refeicoes p {
-
-    display: block;
-    margin: 20vh 4%;
-    padding: 4% 2%; 
-    position: absolute;
-    width: 573px;
-    height: 19px;
-    left: 399px;
-    top: 10%;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #000000;
-
+.box-cinza{
+   
+    width: 69vw;
+    height: 20vh;
+    padding: 2rem;
+    background: #D9D9D9;
+    border-radius: 19px;
 }
+
+.box-cinza > h2{
+    margin-bottom: 1rem;
+}
+
+
