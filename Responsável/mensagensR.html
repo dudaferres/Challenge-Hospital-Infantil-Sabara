@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plano Alimentar</title>
     <link rel="icon" href="../Assets/logo_head.png" type="image/png">
-    <link rel="stylesheet" href="./CSS-Responsável/mensagensR.css">
+    <link rel="stylesheet" href="./CSS-Responsável/planoAlimentarR.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     
     
@@ -14,10 +14,21 @@
 
     <header>
         <img src="../Assets/notificacao-sino.png" class="img_sino">
-
+    
+        <span id="notification-count" class="notification-count">3</span>
+    
+        <!-- Lista de notificações -->
+        <div id="notification-list" class="notification-list">
+            <ul>
+                <li>Nova mensagem de Dr. Fulano</li>
+                <li>Paciente X alterou seu plano alimentar</li>
+                <li>Nova consulta agendada</li>
+            </ul>
+        </div>
+    
         <a href="/index.html">Encerrar Sessão</a>
-        
     </header>
+    
 
     <aside>
         <section class="sidebar">
@@ -95,6 +106,6 @@
         </div>
     </section>
     
-        <script src="./JS-Responsável/mensagensR.js"></script>
+        <script src="./JS-Responsável/plano_alimentar.js"></script>
 </body>
 </html>
