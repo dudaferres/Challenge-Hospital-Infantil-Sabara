@@ -31,40 +31,76 @@ html, body {
 
 }
 
-header {
+.notification-count {
+    position: absolute;
+    top: 1.3rem;
+    left: 73.2rem;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+}
 
+.notification-list {
+    display: none; 
+    position: absolute;
+    top: 4rem;
+    right: 1rem;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 10;
+}
+
+.notification-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-list ul li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.notification-list ul li:last-child {
+    border-bottom: none;
+}
+
+
+header {
     display: flex;
     justify-items: center;
     align-items: center;
     position: relative;
     width: 100%;
     height: 14%;
-
     background: #EAEAEA;
-
 }
 
 header a {
-    
     font-family: 'Inter';
     margin-left: 73%;
     margin-top: 0%;
     padding: 1rem 0rem;
-
     font-size: 100%;
     color: #626262;
-
 }
 
-
 .img_sino {
-
     position: absolute;
     width: 1.5vw;
     height: 1.5vw;
     top: 35%;
     left: 92%;
-
+    cursor: pointer; /* Acrescenta para indicar que o sino é clicável */
+    z-index: 11; /* Garante que o sino fique acima da lista, se necessário */
 }
 
 /*Sidebar*/
