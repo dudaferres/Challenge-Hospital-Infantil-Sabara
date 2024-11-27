@@ -161,10 +161,10 @@ a {
 /* Painel de Responsavel e Paciente*/
 
 
-.responsavel {
+.profissional {
     
     position: absolute;
-    left: 22%;
+    left: 25%;
     top: 26%;
 
     font-family: 'Inter';
@@ -180,7 +180,7 @@ a {
 .nome_1{
 
     position: absolute;
-    left: 21%;
+    left: 22%;
     top: 30%;
 
     font-family: 'Inter';
@@ -193,21 +193,6 @@ a {
 
 }
 
-.nome_2 {
-
-    position: absolute;
-    left: 20%;
-    top: 37%;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size:0.9rem;
-    line-height: 22%;
-
-    color: #000000;
-
-}
 
 .linha {
 
