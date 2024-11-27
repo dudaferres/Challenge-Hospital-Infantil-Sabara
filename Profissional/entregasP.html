@@ -1,91 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS-Profissional/entregasP.css">
+    <title>Entregas - Profissional</title>
+    <link rel="icon" href="logo_head.png" type="image/png">
+    <link rel="stylesheet" href="/Profissional/CSS-Profissional/entregasP.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">   
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho_esquerda">
-            <img src="/Assets/logo-sabara.png" width="100" height="58" alt="">
-        </div>
-        <div class="cabecalho_direita">
-            <div class="sessao">
-                <a href="#">Encerrar sessão</a>
-            </div>
-            <div class="notification-container">
-                <img src="/Assets/notificacao-sino.png" width="20" height="20" alt="Notificações" id="bell-icon">
-                <span id="notification-count" class="notification-count">3</span> <!-- Exemplo de notificações -->
-            </div>
-            <!-- Lista de notificações, inicialmente oculta -->
-            <div id="notification-list" class="notification-list">
-                <ul>
-                    <li>Nova mensagem de Dr. Fulano</li>
-                    <li>Paciente X alterou seu plano alimentar</li>
-                    <li>Nova consulta agendada</li>
-                </ul>
-            </div>
-        </div>
+
+    <header>
+        <img src="/Assets/notificacao-sino.png" class="img_sino">
+
+        <a href="">Encerrar Sessão</a>        
     </header>
 
-    <aside class="aoLado">
-        <section class="perfil">
-            <img src="/Assets/do-utilizador.png" alt="">
-            <h2>Profissional</h2>
-            <div class="doutor">
-            <p>Doutor Fulano</p>
-            </div>
-        </section>
-        <hr>
-            <div class="planoAlimentar">
-                <a href="#">Plano alimentar</a>
-            </div>
-            <div class="consultas">
-                <a href="#">Consultas e</a>
-            </div>
-            <div class="interacoes">
-                <a href="#">Interações</a>
-            </div>
-            <div class="mensagens">
-                <a href="#">Mensagens</a>
-            </div>
-            <div class="entregas">
-                <a href="#">Entregas</a>
-            </div>
-            <div class="solicitacoes">
-                <a href="#">Solicitações</a>
-            </div>
-    </aside>
+    <aside>
+        <section class="sidebar">
 
+            <img src="/Assets/logo-sabara.png" class="img_logo">
+
+            <img src="/Assets/do-utilizador.png" class="usuario">
+
+            <img src="/Assets/Line 1.png" class="linha" alt="">
+
+            <h1 class="responsavel">Responsável</h1>
+                <p class="nome_1">Lorem Ipsum is simply</p>
+            <h1 class="paciente">Paciente</h1>
+                <p class="nome_2">Lorem Ipsum is simply</p>
+                <nav>     
+                    <div class="link_sidebar">
+
+                        <a href="#" class="link_page">Plano Alimentar</a>
+
+                        <a href="#" class="link_page">Consultas e Interações</a>
+
+                        <a href="#" class="link_page">Mensagens</a>
+
+                        <a href="#" class="link_page">Entregas</a>
+
+                        <a href="#" class="link_page">Solicitações</a>
+                    </div>
+                </nav>
+        </section>
+    </aside>
     <section class="plano">
-        <div class="leito1">
-            <img src="/Assets/do-utilizador.png" width="42" height="42" alt="">
-            <p>Pedido123</p>
-            <p>Paciente1 - Leito 321</p>
-            <div class="texto_leito1">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <div class="refeicoes">
+            <div class="box-cinza">
+                <img src="/Assets/do-utilizador.png" alt="" class="img-utilizador">
+                <h2>Pedido 123 - Paciente1 - Leito 321</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
-        </div>
-        <div class="leito2">
-            <img src="/Assets/do-utilizador.png" width="42" height="42" alt="">
-            <p>Pedido123</p>
-            <p>Paciente1 - Leito 321</p>
-            <div class="texto_leito2">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+
+            <div class="box-cinza">
+                <img src="/Assets/do-utilizador.png" alt="" class="img-utilizador">
+                <h2 >Pedido 123 - Paciente1 - Leito 321</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
-        </div>
-        <div class="leito3">
-            <img src="/Assets/do-utilizador.png" width="42" height="42" alt="">
-            <p>Pedido123</p>
-            <p>Paciente1 - Leito 321</p>
-            <div class="texto_leito3">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+
+            <div class="box-cinza">
+                <img src="/Assets/do-utilizador.png" alt="" class="img-utilizador">
+                <h2>Pedido 123 - Paciente1 - Leito 321</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
         </div>
     </section>
-
-    <script src="script.js"></script>
+        <script src="#"></script>
 </body>
 </html>
