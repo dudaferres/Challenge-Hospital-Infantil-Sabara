@@ -1,0 +1,377 @@
+/* Medias */
+
+@media (max-width: 768px) {
+   
+}
+
+@media (min-width: 1024px) {
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+    background: #D9D9D9;
+
+}
+
+html, body {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 14%;
+
+    background: #EAEAEA;
+
+}
+
+header a {
+    
+    font-family: 'Inter';
+    margin-left: 73%;
+    margin-top: 0%;
+    padding: 1rem 0rem;
+
+    font-size: 100%;
+    color: #626262;
+
+}
+
+
+.img_sino {
+
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 35%;
+    left: 92%;
+
+}
+
+/*Sidebar*/
+
+.sidebar {
+
+    position: absolute;
+    width: 20.3%;
+    height: 216%;
+    left: 0%;
+    top: 0%;
+    padding: 0% 0%;
+
+    background: #EAEAEA;
+
+}
+  
+.img_logo {
+
+    position: absolute;
+    width: 74%;
+    height: 5%;
+    left: 12%;
+    top: 1%;
+
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5%;
+    
+}
+
+.img-utilizador {
+    width: 42px;
+    height: 42px;
+    margin-top:-1rem;
+    margin-left: -1rem;
+}
+
+.usuario {
+
+    position: absolute;
+    width: 49%;
+    height: 10%;
+    left: 23%;
+    top: 13%;
+
+}
+/* Estilização dos Links*/
+
+a {
+
+    background: none;
+    border: none;
+    color: inherit; 
+    font: inherit; 
+    padding: 0%;
+    cursor: pointer; 
+    text-decoration: none; 
+    
+}
+  
+.link_sidebar {
+    margin-top: 36rem; 
+    display: flex; 
+    flex-direction: column;
+    gap: 1em; 
+
+}
+
+.link_sidebar a {
+
+    display: block;
+    line-height: 1.9rem;
+    margin: 0 auto;
+    padding: 0.5em;
+    width: 15rem;
+
+    font-size: 1.5rem;
+    background: none;
+    border-radius: 52px;
+    text-align: center;
+    transition: background 0.1s ease, padding 0.1s ease;
+
+    color: #626262;
+
+}
+
+.link_sidebar a:hover {
+    background: #D9D9D9;
+    padding: 1em 0em;
+}
+
+
+
+/* Painel de Responsavel e Paciente*/
+
+
+.profissional {
+    
+    position: absolute;
+    left: 25%;
+    top: 26%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+
+.nome_1{
+
+    position: absolute;
+    left: 22%;
+    top: 30%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size:0.9rem;
+    line-height: 22%;
+
+    color: #000000;
+
+}
+
+.linha {
+
+    position: absolute;
+    width: 70%;
+    height:0%;
+    left: 14.5%;
+    top: 33%;
+
+    border: 1px solid #9B9B9B;
+
+}
+
+/* Plano de Alimentação*/
+
+.plano{
+    
+    display: flex;
+    display: block;
+    position: absolute;
+    width: 74%;
+    height: 167vh;
+    left: 23.5%;
+    top: 23%;
+
+    background: #EAEAEA;
+    border-radius: 45px;
+
+}
+
+.plano_alimentar {
+
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 3%;
+    top: 3%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120%;
+    line-height: 120%;
+
+    color: #000000;
+
+
+}
+
+.linha2 {
+
+    position: absolute;
+    width: 68.8vw;
+    height: 0%;
+    left: 24.99%;
+    top: 7.7%;
+
+    border: 1px solid #B0B0B0;
+
+}
+
+.linha2 {
+    width: 0.0625rem;
+    height:  66.625rem;
+}
+
+.mensagens{
+ /*colocar em cada div*/
+
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 2rem;
+
+}
+
+.box-cinza{
+   
+    width: 69vw;
+    height: 8vh;
+    padding: 2rem;
+    background: #EAEAEA;
+    border-radius: 19px;
+
+}
+
+.box-cinza > h2{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    margin-top: -2.3rem;
+
+}
+
+.box-cinza > p{
+    margin-left: 3rem;
+}
+
+.retangulo-branco{
+    width: 100%;
+    height: 2.6875rem;
+    background-color: #FFFFFF;
+}
+
+.texto-retangulo{
+    display: flex;
+    gap: 25rem;
+    padding-top: 10px;
+    margin-left: 9rem;
+    font-family: 'Inter';
+    font-size: 1rem;
+}
+
+.mensagens-paciente > img{
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.mensagens-paciente > p{
+    margin-left: 8rem;
+    margin-top: -2rem;
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.img-usuario1{
+    position: relative;
+    left: 20rem;
+    top: 9rem;
+    width: 1.375rem;
+    height: 1.375rem;
+}
+
+.img-usuario2{
+    position: relative;
+    left: 66rem;
+    width: 1.375rem;
+    height: 1.375rem;
+    top: 10rem;
+
+}
+.mensagem-conversa > p{
+    border-radius: 3.25rem;
+    background: #D9D9D9;
+    width: 15rem;
+    height: 3rem;
+}
+.texto-conversa1{
+    position: relative;
+    left: 23rem;
+    top: 6rem;
+}
+
+.texto-conversa2{
+    position: relative;
+    left: 50rem;
+    bottom: -7rem;
+}
+
+input{
+    border-radius: 3rem;
+    background: #D9D9D9;
+    border: none;
+    width: 42.1875rem;
+    height: 2.8125rem;
+    margin-left: 23rem;
+    margin-top: 8rem;
+}
+
+::placeholder{
+    font-family: Inter;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.47);
+    padding: 10px 0px 10px 20px;
+}
+.conversa1{
+    margin-top: 18rem;
+}
