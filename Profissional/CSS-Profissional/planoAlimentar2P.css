@@ -1,10 +1,3 @@
-/* Medias */
-
-@media (max-width: 768px) {
-}
-
-@media (min-width: 1024px) {
-}
 
 * {
   margin: 0;
@@ -26,8 +19,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-/* Notificação */
 
 .notification-count {
   position: absolute;
@@ -71,8 +62,6 @@ body {
   border-bottom: none;
 }
 
-/* Header */
-
 header {
   display: flex;
   justify-items: center;
@@ -98,11 +87,9 @@ header a {
   height: 1.5vw;
   top: 35%;
   left: 92%;
-  cursor: pointer; /* Acrescenta para indicar que o sino é clicável */
-  z-index: 11; /* Garante que o sino fique acima da lista, se necessário */
+  cursor: pointer;
+  z-index: 11;
 }
-
-/*Sidebar*/
 
 .sidebar {
   position: absolute;
@@ -133,7 +120,6 @@ header a {
   left: 25%;
   top: 13%;
 }
-/* Estilização dos Links*/
 
 a {
   background: none;
@@ -173,8 +159,6 @@ a {
   padding: 1em 0em;
 }
 
-/* Painel de Responsavel e Paciente*/
-
 .profissional {
   position: absolute;
   left: 33%;
@@ -213,8 +197,6 @@ a {
   border: 1px solid #9b9b9b;
 }
 
-/* Plano de Alimentação*/
-
 .plano {
   display: flex;
   display: block;
@@ -244,33 +226,30 @@ a {
   border: 1px solid #b0b0b0;
 }
 
-/* Estilo geral para a seção 'plano' */
 .plano {
-  display: flex; /* Define o layout como Flexbox para distribuir os elementos de forma flexível */
-  display: block; /* Remover este 'display: block' porque já foi definido 'flex' (redundante) */
-  position: absolute; /* O posicionamento absoluto pode afetar a responsividade, especialmente em telas pequenas */
-  width: 74%; /* Define a largura da seção como 74% da tela */
-  height: 144vh; /* Define a altura como 167% da altura da tela, criando um layout grande */
-  left: 23.5%; /* Posiciona a seção 23.5% da largura da tela à esquerda */
-  top: 23%; /* Posiciona a seção 23% da altura da tela para baixo */
-  background: #eaeaea; /* Cor de fundo da seção, um tom claro de cinza */
-  border-radius: 45px; /* Bordas arredondadas para a seção */
+  display: flex;
+  display: block;
+  position: absolute;
+  width: 74%;
+  height: 144vh;
+  left: 23.5%;
+  top: 23%;
+  background: #eaeaea;
+  border-radius: 45px;
 }
 
-/* Estilo para a foto do utilizador */
 .foto-utilizador {
-  width: 54px; /* Define a largura da foto */
-  height: 54px; /* Define a altura da foto */
-  border-radius: 50%; /* Torna a imagem redonda */
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
 }
 
-/* Estilo para o título 'Plano Alimentar' */
 .plano_alimentar {
-  font-family: "Inter", sans-serif; /* Definindo a fonte para o título */
-  font-weight: 500; /* Peso da fonte */
-  font-size: 1.2rem; /* Tamanho da fonte */
-  line-height: 1.2; /* Altura da linha para garantir legibilidade */
-  color: #000000; /* Cor do texto em preto */
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #000000;
   width: 69vw;
   margin: auto;
   padding-top: 1rem;
@@ -278,58 +257,51 @@ a {
   border-bottom: 2px solid #d9d9d9;
 }
 
-/* Estilo para a linha decorativa abaixo do título */
 .linha2 {
-  position: absolute; /* Posicionamento absoluto para fixar a linha */
-  width: 68.8%; /* A linha ocupa 68.8% da largura da tela */
-  top: 14%; /* Posiciona a linha 7.5% abaixo da parte superior */
-  left: 2.99%; /* Posiciona a linha 2.99% da borda esquerda */
-  border: 1px solid #b0b0b0; /* Define uma borda cinza para a linha */
+  position: absolute;
+  width: 68.8%;
+  top: 14%;
+  left: 2.99%;
+  border: 1px solid #b0b0b0;
 }
 
-/* Estilo para a seção de refeições */
 .refeicoes {
-  margin-top: 1rem; /* Adiciona uma margem superior de 6rem para separar do título */
-  display: flex; /* Usando flexbox para distribuir os elementos dentro de 'refeicoes' */
-  flex-direction: column; /* Organiza os elementos de forma vertical */
-  align-items: center; /* Centraliza os itens dentro da coluna */
-  gap: 2rem; /* Espaçamento de 2rem entre os itens */
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
-/* Estilo para o título de cada refeição (Café da manhã, Almoço, etc.) */
 .refeicoes h2 {
-  font-size: 1.2rem; /* Tamanho da fonte para o título */
-  margin-bottom: 0.5rem; /* Pequeno espaço abaixo do título */
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
-/* Estilo para os parágrafos dentro das refeições */
 .refeicoes p {
-  font-size: 1rem; /* Tamanho da fonte dos parágrafos */
-  color: #333; /* Cor do texto para um melhor contraste */
+  font-size: 1rem;
+  color: #333;
 }
 
-/* Estilo para cada caixa de refeição */
 .box-cinza {
-  width: 69vw; /* A caixa ocupa 69% da largura da tela */
-  padding: 2rem; /* Espaçamento interno da caixa de 2rem */
-  background: #d9d9d9; /* Cor de fundo cinza para a caixa */
-  border-radius: 19px; /* Bordas arredondadas na caixa */
+  width: 69vw;
+  padding: 2rem;
+  background: #d9d9d9;
+  border-radius: 19px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Estilo para o título dentro de cada caixa de refeição */
 .box-cinza > h2 {
-  margin-bottom: 1rem; /* Espaço abaixo do título dentro da caixa */
-  font-size: 1.1rem; /* Tamanho da fonte para o título dentro da caixa */
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
-/* Estilo para as imagens dentro de cada caixa de refeição (ícones de edição) */
 .box-cinza img {
-  width: 20px; /* Define o tamanho das imagens para 20px de largura */
-  height: auto; /* Ajuste a altura automaticamente para manter a proporção */
-  margin-bottom: 1rem; /* Adiciona espaçamento abaixo da imagem */
+  width: 20px;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .card {
