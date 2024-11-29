@@ -98,7 +98,7 @@ header a {
 .img-utilizador {
     width: 42px;
     height: 42px;
-    margin-top:-1rem;
+    margin-top:-3rem;
     margin-left: -1rem;
 }
 
@@ -126,7 +126,7 @@ a {
 }
   
 .link_sidebar {
-    margin-top: 35rem; 
+    margin-top: 36rem; 
     display: flex; 
     flex-direction: column;
     gap: 1em; 
@@ -200,7 +200,7 @@ a {
     width: 70%;
     height:0%;
     left: 14.5%;
-    top: 34%;
+    top: 33%;
 
     border: 1px solid #9B9B9B;
 
@@ -297,4 +297,10 @@ a {
 
 .box-cinza > p{
     margin-left: 3rem;
+}
+
+.box-cinza > div{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
