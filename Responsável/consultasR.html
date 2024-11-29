@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultas</title>
+    <title>Pedidos</title>
     <link rel="icon" href="../Assets/logo_head.png" type="image/png">
-    <link rel="stylesheet" href="./CSS-Responsável/planoAlimentarR.css">
+    <link rel="stylesheet" href="./CSS-Responsável/pedidosR.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     
     
@@ -67,27 +67,36 @@
     </aside>
 
     <section class="plano">
-        <h1 class="plano_alimentar">Plano Alimentar</h1>
+        <h1 class="plano_alimentar">Pedidos</h1>
 
         <img src="/Assets/Line 2.png"  class="linha2">
     
         <div class="refeicoes">
+
             <!-- pode duas classes em uma só -->
+            <div class="box-cinza box-cinza-status">
 
-            <div class="box-cinza">
-                <h2 >Consulta 20/02/2024</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p class="pedido" >Consulta  20/02/2024</p>
+
+                <div class="status">
+
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                </div>
+                
+
             </div>
 
-            <div class="box-cinza">
-                <h2 >Agendamento</h2>
-                <p>O que você gostaria de solicitar? Informe o número do seu leito e possíveis restrições.</p>
+            <div class="box-cinza box-agendamento">
 
-                <p>Data / / </p>
-                <p>Hora   :   </p>
-                <img src="/Assets/Sinal de mais.png" alt=""> 
+                <h2>Agendamento</h2>
+                <textarea placeholder="O que você gostaria de solicitar? Informe o número do seu leito e possíveis restrições." id=""></textarea>
+                <div class="input-agendamento">
+                    <input type="date" name="data"></input>
+                    <input type="time" name="hora"></input>
+                    <img src="/Assets/Sinal de mais.png" alt="">
+                </div>
             </div>
-
         </div>
     </section>
     
