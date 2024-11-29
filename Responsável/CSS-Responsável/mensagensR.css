@@ -31,40 +31,79 @@ html, body {
 
 }
 
-header {
+/* Notificação */
 
+.notification-count {
+    position: absolute;
+    top: 1.3rem;
+    left: 73.2rem;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.notification-list {
+    display: none; 
+    position: absolute;
+    top: 4rem;
+    right: 1rem;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 10;
+}
+
+.notification-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-list ul li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.notification-list ul li:last-child {
+    border-bottom: none;
+}
+
+/* Header */
+
+header {
     display: flex;
     justify-items: center;
     align-items: center;
     position: relative;
     width: 100%;
     height: 14%;
-
     background: #EAEAEA;
-
 }
 
 header a {
-    
     font-family: 'Inter';
     margin-left: 73%;
     margin-top: 0%;
     padding: 1rem 0rem;
-
     font-size: 100%;
     color: #626262;
-
 }
 
-
 .img_sino {
-
     position: absolute;
     width: 1.5vw;
     height: 1.5vw;
     top: 35%;
     left: 92%;
-
+    cursor: pointer; /* Acrescenta para indicar que o sino é clicável */
+    z-index: 11; /* Garante que o sino fique acima da lista, se necessário */
 }
 
 /*Sidebar*/
@@ -95,19 +134,12 @@ header a {
     
 }
 
-.img-utilizador {
-    width: 42px;
-    height: 42px;
-    margin-top:-1rem;
-    margin-left: -1rem;
-}
-
 .usuario {
 
     position: absolute;
     width: 49%;
     height: 10%;
-    left: 23%;
+    left: 25%;
     top: 13%;
 
 }
@@ -126,7 +158,7 @@ a {
 }
   
 .link_sidebar {
-    margin-top: 36rem; 
+    margin-top: 240%; 
     display: flex; 
     flex-direction: column;
     gap: 1em; 
@@ -161,10 +193,10 @@ a {
 /* Painel de Responsavel e Paciente*/
 
 
-.profissional {
+.responsavel {
     
     position: absolute;
-    left: 25%;
+    left: 22%;
     top: 26%;
 
     font-family: 'Inter';
@@ -177,12 +209,43 @@ a {
 
 }
 
+.paciente{
+
+    position: absolute;
+    left: 29%;
+    top: 33%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 24px;
+
+    color: #000000;
+
+}
 
 .nome_1{
 
     position: absolute;
-    left: 22%;
+    left: 19%;
     top: 30%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size:0.9rem;
+    line-height: 22%;
+
+    color: #000000;
+
+}
+
+.nome_2 {
+
+    position: absolute;
+    left: 19%;
+    top: 37%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -200,11 +263,12 @@ a {
     width: 70%;
     height:0%;
     left: 14.5%;
-    top: 33%;
+    top: 41%;
 
     border: 1px solid #9B9B9B;
 
 }
+
 
 /* Plano de Alimentação*/
 
@@ -245,10 +309,8 @@ a {
 .linha2 {
 
     position: absolute;
-    width: 68.8vw;
-    height: 0%;
-    left: 24.99%;
-    top: 7.7%;
+    left: 14rem;
+    top: 0rem;
 
     border: 1px solid #B0B0B0;
 
@@ -302,7 +364,7 @@ a {
     display: flex;
     gap: 25rem;
     padding-top: 10px;
-    margin-left: 9rem;
+    margin-left: 5rem;
     font-family: 'Inter';
     font-size: 1rem;
 }
@@ -315,7 +377,7 @@ a {
 }
 
 .mensagens-paciente > p{
-    margin-left: 8rem;
+    margin-left: 6rem;
     margin-top: -2rem;
     font-family: 'Inter';
     font-size: 1rem;
@@ -324,7 +386,7 @@ a {
 
 .img-usuario1{
     position: relative;
-    left: 20rem;
+    left: 16rem;
     top: 9rem;
     width: 1.375rem;
     height: 1.375rem;
@@ -332,7 +394,7 @@ a {
 
 .img-usuario2{
     position: relative;
-    left: 66rem;
+    left: 54rem;
     width: 1.375rem;
     height: 1.375rem;
     top: 10rem;
@@ -343,16 +405,19 @@ a {
     background: #D9D9D9;
     width: 15rem;
     height: 3rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    line-height: 3rem;
 }
 .texto-conversa1{
     position: relative;
-    left: 23rem;
+    left: 18rem;
     top: 6rem;
 }
 
 .texto-conversa2{
     position: relative;
-    left: 50rem;
+    left: 38rem;
     bottom: -7rem;
 }
 
@@ -362,8 +427,8 @@ input{
     border: none;
     width: 42.1875rem;
     height: 2.8125rem;
-    margin-left: 23rem;
-    margin-top: 8rem;
+    margin-left: 15rem;
+    margin-top: 0rem;
 }
 
 ::placeholder{
@@ -373,5 +438,5 @@ input{
     padding: 10px 0px 10px 20px;
 }
 .conversa1{
-    margin-top: 18rem;
+    margin-top: 0rem;
 }
