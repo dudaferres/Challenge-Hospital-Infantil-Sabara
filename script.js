@@ -17,7 +17,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         // Verifica qual tipo de usuário foi selecionado
         if (usuario === "paciente") {
             console.log("Login bem-sucedido como Paciente! Redirecionando...");
-            window.location.href = "Profissional/planoAlimentarR.html";  // Redireciona para a página do paciente
+            window.location.href = "Responsável/planoAlimentarR.html";  // Redireciona para a página do paciente
         } else if (usuario === "profissional") {
             console.log("Login bem-sucedido como Profissional! Redirecionando...");
             window.location.href = "Profissional/planoAlimentar1P.html";  // Redireciona para a página do profissional
