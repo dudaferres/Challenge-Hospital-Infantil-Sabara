@@ -273,11 +273,10 @@ a {
 
 .plano{
     
-    display: flex;
     display: block;
     position: absolute;
     width: 74%;
-    height: 167vh;
+    padding: 3rem;
     left: 23.5%;
     top: 23%;
 
@@ -342,24 +341,64 @@ a {
 }
 
 .box-cinza{
-   
+
     width: 69vw;
-    height: 20vh;
     padding: 2rem;
     background: #D9D9D9;
     border-radius: 19px;
 
 }
 
-.box-cinza > h2{
-
-    margin-bottom: 5rem;
-
+.box-cinza .box-status{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
 }
 
-.box-cinza > p {
+.box-cinza-status{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
 
+.box-cinza input{
+    background-color: transparent;
+    border-radius: 5rem;
+    border: 1px solid #626262;
+    padding: 0.5rem 2rem;
+}
 
+textarea {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    height: 5rem ;
+    padding: 0.5rem;
+}
+
+.box-cinza h2{
+    margin-bottom: 2rem;
+}
+
+.box-cinza .input-agendamento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-agendamento img{
+    width: 20px;
+    height: 20px;
+}
+
+.box-cinza img{
+    max-width: 100%;
+}
+
+.box-agendamento{
+    margin-top: 10rem;
 }
 
 
