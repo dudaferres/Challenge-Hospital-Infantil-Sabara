@@ -101,7 +101,7 @@ O Figma funcionara como uma base visual, mas não apenas isso como ele também i
 
 **𝘊𝘰𝘮𝘰 𝘌𝘹𝘦𝘤𝘶𝘵𝘢𝘳 𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰🚑**  
 
-Link do site : [[[http://127.0.0.1:5500/](https://julikatv.github.io/global_solution_webdev_frontend/)](https://julikatv.github.io/global_solution_webdev_frontend/)](https://julikatv.github.io/global_solution_webdev_frontend/)
+Link do site : https://dudaferres.github.io/Challenge-Hospital-Infantil-Sabara/
 
 Para executar o projeto localmente por meio de um Fork:
 
