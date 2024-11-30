@@ -103,6 +103,8 @@ O Figma funcionara como uma base visual, mas não apenas isso como ele também i
 
 Link do site : https://dudaferres.github.io/Challenge-Hospital-Infantil-Sabara/
 
+Senha e CPF para login : admin
+
 Para executar o projeto localmente por meio de um Fork:
 
 1. Copie o códgo apresentado quando apertar o botão "<> Code"
