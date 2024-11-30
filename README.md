@@ -103,7 +103,11 @@ O Figma funcionara como uma base visual, mas não apenas isso como ele também i
 
 Link do site : https://dudaferres.github.io/Challenge-Hospital-Infantil-Sabara/
 
-Senha e CPF para login : admin
+Para acessar a página do paciente colocar no dropdown "Paciente (Responsável)"
+
+Para acessar a página do profissional colocar no dropdown "Profissional"
+
+Senha e CPF/CRN para login : admin
 
 Para executar o projeto localmente por meio de um Fork:
 
