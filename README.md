@@ -1,49 +1,43 @@
-<<<<<<< Updated upstream
-<h1 align="center">🏨Hospital Sabará🏨</h1>
-
-**Descrição**  
-NomeDoProjeto é uma [breve descrição, por exemplo: "aplicação web que ajuda a gerenciar tarefas diárias de forma intuitiva e eficiente"]. O projeto foi criado com o objetivo de [explicar o propósito principal, como "aumentar a produtividade pessoal e de equipes"].
-=======
 <h1 align="center">🏥𝙲𝚑𝚊𝚕𝚕𝚎𝚗𝚐𝚎 - 𝙷𝚘𝚜𝚙𝚒𝚝𝚊𝚕 𝚂𝚊𝚋𝚊𝚛𝚊́🏥</h1>
 <br>
 <br>
 
-**𝘔𝘢𝘤𝘳𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰👩‍⚕️**  
->>>>>>> Stashed changes
+**𝘔𝘢𝘤𝘳𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰👩‍⚕️**
 
-**Funcionalidades Principais**  
-- [Funcionalidade 1: ex. Criação e gerenciamento de tarefas com data de vencimento]
-- [Funcionalidade 2: ex. Sistema de notificações automáticas para prazos]
-- [Funcionalidade 3: ex. Colaboração em tempo real com outros usuários]
-- [Funcionalidade adicional ou diferencial: ex. Integração com serviços como Google Calendar]
+A nutrição hospitalar enfrenta desafios crescentes devido ao aumento da demanda e às rigorosas exigências relacionadas à alimentação. No Hospital Infantil Sabará, uma referência em pediatria em São Paulo, problemas como ineficiência operacional, falhas na comunicação, acúmulo de responsabilidades e dificuldades logísticas impactam diretamente a qualidade do atendimento.
 
-**Tecnologias Utilizadas**  
-- [Tecnologia 1: ex. React.js para a interface de usuário]
-- [Tecnologia 2: ex. Node.js para o backend]
-- [Tecnologia 3: ex. MongoDB para armazenamento de dados]
+**𝘗𝘳𝘪𝘯𝘤𝘪𝘱𝘢𝘪𝘴 𝘗𝘳𝘰𝘣𝘭𝘦𝘮𝘢𝘴 𝘐𝘥𝘦𝘯𝘵𝘪𝘧𝘪𝘤𝘢𝘥𝘰𝘴**:
 
-<<<<<<< Updated upstream
-**Como Contribuir**  
-Contribuições são bem-vindas! Para colaborar, siga as etapas abaixo:
-1. Fork o repositório.
-2. Crie uma branch para a sua feature (`git checkout -b feature/nome-da-feature`).
-3. Faça as alterações desejadas e adicione commits (`git commit -m 'Descrição da alteração'`).
-4. Envie um pull request.
-=======
+- Ausência de sistemas de automação.
+- Desorganização no deslocamento de suprimentos e alimentos.
+- Sobrecarga das enfermeiras.
+- Falhas na comunicação entre profissionais e responsáveis pelos pacientes.
+- Dificuldades no gerenciamento de prontuários e processos assistenciais.
+- Questões relacionadas à sustentabilidade e higienização de materiais.
+
+
+
 **𝘔𝘪𝘤𝘳𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰👩‍⚕️**  
->>>>>>> Stashed changes
 
-**Como Executar o Projeto**  
-Para executar o projeto localmente:
-1. Clone este repositório: `git clone https://github.com/seu-usuario/NomeDoProjeto.git`
-2. Instale as dependências com `npm install` (ou `yarn install`).
-3. Inicie o servidor com `npm start` (ou `yarn start`).
-4. Acesse `http://localhost:3000` em seu navegador para ver o projeto em ação.
+𝘋𝘦𝘴𝘦𝘯𝘷𝘰𝘭𝘷𝘦𝘮𝘰𝘴 𝘶𝘮 𝘢𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘷𝘰 𝘲𝘶𝘦 𝘪𝘯𝘵𝘦𝘨𝘳𝘢 𝘧𝘶𝘯𝘤𝘪𝘰𝘯𝘢𝘭𝘪𝘥𝘢𝘥𝘦𝘴 𝘱𝘢𝘳𝘢 𝘳𝘦𝘴𝘰𝘭𝘷𝘦𝘳 𝘦𝘴𝘴𝘦𝘴 𝘱𝘳𝘰𝘣𝘭𝘦𝘮𝘢𝘴 𝘥𝘦 𝘧𝘰𝘳𝘮𝘢 𝘦𝘧𝘪𝘤𝘪𝘦𝘯𝘵𝘦 𝘦 𝘢𝘶𝘵𝘰𝘮𝘢𝘵𝘪𝘻𝘢𝘥𝘢. 𝘈𝘴 𝘱𝘳𝘪𝘯𝘤𝘪𝘱𝘢𝘪𝘴 𝘧𝘶𝘯𝘤̧𝘰̃𝘦𝘴 𝘪𝘯𝘤𝘭𝘶𝘦𝘮:
 
-<<<<<<< Updated upstream
-**Licença**  
-Este projeto está licenciado sob a Licença [tipo de licença, ex. MIT]. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
-=======
+- **𝘈𝘶𝘵𝘰𝘮𝘢𝘤̧𝘢̃𝘰 𝘥𝘰 𝘱𝘭𝘢𝘯𝘦𝘫𝘢𝘮𝘦𝘯𝘵𝘰 𝘢𝘭𝘪𝘮𝘦𝘯𝘵𝘢𝘳**: Facilita o gerenciamento de dietas personalizadas para os pacientes.
+- **𝘈𝘨𝘦𝘯𝘥𝘢𝘮𝘦𝘯𝘵𝘰 𝘥𝘦 𝘤𝘰𝘯𝘴𝘶𝘭𝘵𝘢𝘴**: Otimiza o atendimento entre nutricionistas e responsáveis.
+- **𝘊𝘰𝘮𝘶𝘯𝘪𝘤𝘢𝘤̧𝘢̃𝘰 𝘦𝘧𝘪𝘤𝘪𝘦𝘯𝘵𝘦**: Chats privados para sanar dúvidas e ajustar exigências alimentares.
+- **𝘎𝘦𝘳𝘦𝘯𝘤𝘪𝘢𝘮𝘦𝘯𝘵𝘰 𝘥𝘦 𝘱𝘦𝘥𝘪𝘥𝘰𝘴**: Suprimentos e alimentos são solicitados com maior agilidade.
+
+**𝘐𝘮𝘱𝘢𝘤𝘵𝘰𝘴 𝘗𝘰𝘴𝘪𝘵𝘪𝘷𝘰𝘴**:
+
+- **𝘙𝘦𝘥𝘶𝘤̧𝘢̃𝘰 𝘥𝘦 𝘢𝘵𝘳𝘢𝘴𝘰𝘴**: Entregas de refeições passaram a ocorrer pontualmente.
+- **𝘔𝘢𝘪𝘰𝘳 𝘦𝘧𝘪𝘤𝘪𝘦̂𝘯𝘤𝘪𝘢**: Enfermeiros e cozinheiros têm rotinas organizadas e previsíveis.
+- **𝘔𝘦𝘭𝘩𝘰𝘳𝘪𝘢 𝘯𝘢 𝘤𝘰𝘮𝘶𝘯𝘪𝘤𝘢𝘤̧𝘢̃𝘰**: Profissionais e responsáveis pelos pacientes interagem de forma clara e direta.
+
+**𝘌𝘹𝘱𝘢𝘯𝘴𝘢̃𝘰 𝘥𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰**:
+
+Com o tempo, identificou-se a necessidade de rastreamento em tempo real dos alimentos e suprimentos. Integrando a tecnologia de cartões já usados no hospital com o aplicativo, foi possível localizar itens de forma precisa, elevando ainda mais a eficiência logística e o controle operacional.
+
+Essa solução não só otimizou processos como também promoveu uma experiência hospitalar mais segura e organizada, garantindo melhor qualidade de vida aos pacientes e maior produtividade às equipes.
+   
 <hr>
 
 **𝘛𝘦𝘤𝘯𝘰𝘭𝘰𝘨𝘪𝘢𝘴 𝘜𝘵𝘪𝘭𝘪𝘻𝘢𝘥𝘢𝘴🚑**  
